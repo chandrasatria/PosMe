@@ -1,0 +1,22 @@
+{
+    	
+    	"All Products": [
+    		{"name" : "All Products","parent":"none"}
+    	],
+    	"Perhiasan" : [
+    		{"name" : "Perhiasan","parent":"All Products"}
+    	],
+    	"Baju & Aksesoris" : [
+    		{"name" : "Baju & Aksesoris","parent":"All Products"}
+    	],
+    	"Kalung" : [
+            {"name" : "Kalung","parent":"Perhiasan"}
+        ],
+        "Gelang" : [
+            {"name" : "Gelang","parent":"Perhiasan"}
+        ],
+        "Anting-Anting" : [
+            {"name" : "Anting-Anting","parent":"Perhiasan"}
+        ]
+
+}
