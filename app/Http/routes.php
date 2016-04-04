@@ -15,6 +15,8 @@ Route::get('/', function () {
     return view('home');
 });
 
+
+
 Route::resource('sales', 'SaleController');
 
 /*
@@ -30,4 +32,10 @@ Route::resource('sales', 'SaleController');
 
 Route::group(['middleware' => ['web']], function () {
     //
+});
+
+Route::group(['middleware' => 'web'], function () {
+    Route::auth();
+
+    Route::get('/home', 'HomeController@index');
 });
