@@ -24,7 +24,7 @@ class SaleController extends Controller
             'hasiljson' => $hasiljson,
         ]);
         //return view('sales.index');
-        return View::make('sales.index')->with('hasiljson',$hasiljson);
+        return View::make('sales.index2')->with('hasiljson',$hasiljson);
         //return view('sales.index')->with('hasiljson',$hasiljson);
         //d( $hasiljson );
         
